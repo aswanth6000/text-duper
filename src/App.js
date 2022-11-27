@@ -1,11 +1,10 @@
+import Layout from "./components/layout";
 
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-hello
+        <Layout/>
     </div>
   );
 }
 
-export default App;
